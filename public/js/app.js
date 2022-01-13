@@ -26318,10 +26318,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "sr-only"
 }, "Workflow"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "h-8 w-auto sm:h-10",
-  src: "{{ asset('siglalogo.png') }}"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "h-8 w-auto sm:h-10",
-  src: "{{ asset('siglalogo.png') }}"
+  src: "http://siglacontabilidade.com.br/public/assets/siglalogo.png"
 })], -1
 /* HOISTED */
 );

@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^siglacontabilidade.com.br$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.siglacontabilidade.com.br/$
-RewriteCond %{REQUEST_URI} !public/
-RewriteRule (.*) /public/$1 [L]
-
