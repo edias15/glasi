@@ -27,11 +27,20 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Home');
 });
+Route::get('contact', function () {
+    return Inertia::render('Contact');
+});
+Route::get('policies', function () {
+    return Inertia::render('Policies');
+});
+Route::get('about', function () {
+    return Inertia::render('About');
+});
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/home', function () {
+Route::get('home', function () {
     return Inertia::render('Home');
 })->name('home');
 
