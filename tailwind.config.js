@@ -28,6 +28,50 @@ module.exports = {
             }
         },
     },
+    daisyui: {
+        themes: [
+        {
+            'siglacontabilidade': {             /* your theme name */
+               'primary' : '#0070F3',           /* Primary color */
+               'primary-focus' : '#4F90DC',     /* Primary color - focused */
+               'primary-content' : '#ffffff',   /* Foreground content color to use on primary color */
 
-    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+               'secondary' : '#B07946',         /* Secondary color */
+               'secondary-focus' : '#EAC27F',   /* Secondary color - focused */
+               'secondary-content' : '#43393A', /* Foreground content color to use on secondary color */
+
+               'accent' : '#37cdbe',            /* Accent color */
+               'accent-focus' : '#2aa79b',      /* Accent color - focused */
+               'accent-content' : '#ffffff',    /* Foreground content color to use on accent color */
+
+               'neutral' : '#3d4451',           /* Neutral color */
+               'neutral-focus' : '#2a2e37',     /* Neutral color - focused */
+               'neutral-content' : '#ffffff',   /* Foreground content color to use on neutral color */
+
+               'base-100' : '#ffffff',          /* Base color of page, used for blank backgrounds */
+               'base-200' : '#f9fafb',          /* Base color, a little darker */
+               'base-300' : '#D3D3D3',          /* Base color, even more darker */
+               'base-content' : '#1f2937',      /* Foreground content color to use on base color */
+
+               'info' : '#2094f3',              /* Info */
+               'success' : '#009485',           /* Success */
+               'warning' : '#ff9900',           /* Warning */
+               'error' : '#ff5724',             /* Error */
+            },
+        },
+        ],
+    },
+    plugins: [
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
+        require('daisyui'),
+    ],
+    daisyui: {
+        styled: true,
+        themes: true,
+        base: true,
+        utils: true,
+        logs: true,
+        rtl: false,
+    },
 };

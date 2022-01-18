@@ -31,7 +31,10 @@ Route::get('contact', function () {
     return Inertia::render('Contact');
 });
 Route::get('policies', function () {
-    return Inertia::render('Policies');
+    return Inertia::render('Policy');
+});
+Route::get('products', function () {
+    return Inertia::render('Product');
 });
 Route::get('about', function () {
     return Inertia::render('About');

@@ -5,10 +5,6 @@
 <script>
 
 export default {
-    name: 'Policies',
+    name: 'Policy',
 }
 </script>
-
-<style>
-
-</style>
