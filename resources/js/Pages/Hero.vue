@@ -7,7 +7,7 @@
                 Grupo Sigla
             </h1>
         <p class="mb-5">
-                Há 18 anos ajudando empresas a se firmarem no mercado. Cuidamos de área fiscal e contábil, para que você aproveite o seu tempo com o que é importante.
+                Há 18 anos ajudando empresários em seus negócios. Cuidamos de área fiscal e contábil, para que você aproveite o seu tempo com o que é importante.
             </p>
         <button class="btn btn-primary">Contato</button>
         </div>

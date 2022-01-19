@@ -20,7 +20,7 @@ export default {
         About,
         Policy,
         Footer,
-        Hero,
+        Hero
     },
 }
 </script>
